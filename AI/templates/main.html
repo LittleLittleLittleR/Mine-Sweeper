@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Little R's minesweeper</title>
+	<script src='{{url_for("static", filename="main.js")}}'></script>
+	<link rel='stylesheet' href='/static/main.css'/>
+</head>
+<body class="js-noMenu">
+	<div id="size_div">
+		<div id="small" class="sb_div"><button onclick="initialise('small')">small</button></div>
+		<div id="medium" class="sb_div"><button onclick="initialise('medium')">medium</button></div>
+		<div id="large" class="sb_div"><button onclick="initialise('large')">large</button></div>
+	</div>
+	<div id="main_body_div">
+		<div id="board_div"></div>
+		<div id="play_div">
+			<button class="ai_button" onclick="dig_one()">Dig 1</button>
+			<button class="ai_button" onclick="dig_all()">Dig All</button>
+			<h2 id="result"></h2>
+		</div>
+	</div>
+</body>
+</html>

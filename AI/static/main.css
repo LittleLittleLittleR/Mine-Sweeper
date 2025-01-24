@@ -1,0 +1,44 @@
+
+#size_div{
+	height: 20vh;
+	width: 70vw;
+	display: flex;
+	margin: auto;
+}
+
+.sb_div{
+	height: 20vh;
+	width: 15vw;
+	margin: auto;
+}
+
+#main_body_div{
+	display: flex;
+}
+#board_div{
+	height: 70vh;
+	width: 80vw;
+}
+
+.board_button{
+	height: 4vh;
+	width: 2vw;
+	background-color: #aaa;
+	font-size: 3.33vh;
+}
+.button_uncovered{
+	background-color: #1c1;
+}
+.button_flagged{
+	background-color: #c11;
+}
+
+.play_div{
+	height: 70vh;
+	width: 20vw;
+	position: right;
+}
+.ai_button{
+	height: 10vh;
+	width: 10vw;
+}
